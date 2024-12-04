@@ -46,7 +46,9 @@ header nav .nav_wrapper ul li a{
 }
 
 /* ================== Banner Start ========================= */
-
+#banner{
+    padding-top: 80px;
+}
 #banner .banner_wrapper{
     display: flex;
 }
@@ -86,5 +88,20 @@ header nav .nav_wrapper ul li a{
     color: gray;
     margin-left: 20px;
     font-family: "Inter", sans-serif;
+}
+.banner_wrapper .shopping p{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    font-family: "Inter", sans-serif;
+    margin-top: 36px;
+}
+.banner_wrapper .banner-icon{
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+}
+.banner-right img{
+    padding-top: 130px;
 }
 /* ================== Banner End =========================== */
